@@ -5,6 +5,7 @@ The user can input functions f(z,c) and the program will generate pretty picture
 the fractals resulting from the convergence or divergence of the iterated evaluation
 of z = f(z,c). In particular, f(z,c) = z^2 + c  generates the famous Mandelbrot set, 
 and the generalizations f(z,c)= z^n + c gives the so called generalized Mandelbrots. 
+See https://www.jwinding.com/blog/post/9/ for a blog post discussing this project. 
 
 # Implementation details
 
