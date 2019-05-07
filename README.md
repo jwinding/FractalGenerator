@@ -3,8 +3,10 @@ A fractal generator with a GUI.
 
 The user can input functions f(z,c) and the program will generate pretty pictures of 
 the fractals resulting from the convergence or divergence of the iterated evaluation
-of z = f(z,c). In particular, f(z,c) = z**2 + c  generates the famous Mandelbrot set, 
-and the generalizations f(z,c)= z**n + c gives the so called generalized Mandelbrots. 
+of z = f(z,c). In particular, f(z,c) = z^2 + c  generates the famous Mandelbrot set, 
+and the generalizations f(z,c)= z^n + c gives the so called generalized Mandelbrots. 
+
+# Implementation details
 
 The GUI is written in PyQt, and allows for intuitive zooming using the mouse, and a 
 number of different color schemes and color interpolation options to experiment with. 
